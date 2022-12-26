@@ -4,14 +4,9 @@ body {
     z-index: -2;
 }
 
-input {
-    background-color: rgba(248, 248, 248, 0.918);
-    font-size: 16px;
-    border-radius: 5%;
-    border: 100% solid;
-    border-color:rgb(37, 37, 100);
-    padding: 1.5% 3%;
-  }
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
   
 
 input[type="submit"] {
@@ -29,10 +24,13 @@ input[type="submit"] {
   }
 
 
+  
+
+
 .flexbox-container{
 display: flex;
 height: 98.4vh;
-width: 99vw;
+width: 98.4vw;
 
 }
 
@@ -55,6 +53,9 @@ margin-top: 175px;
     align-items: center;
     color: rgb(255, 255, 255);
     border-radius: 10px;
+    -webkit-transition: all 1.2s ease;
+    -moz-transition: all 1.2s ease;
+    -o-transition: all 1.2s ease;
 }
     .logo{
         flex-shrink: 1;
@@ -66,6 +67,16 @@ margin-top: 175px;
         flex-grow: 1;
         font-size: 150%;
     }
+
+.flex-itemleft:hover{
+height: 23%;
+margin-left: -30px;
+-webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+-moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.9, transparent), to(rgba(0,0,0,0.4)));
+ 
+}
 
 
 .innerflexbox-right{
@@ -82,7 +93,8 @@ margin-right: 3rem;
 .flexbox-item{
 flex: 1;
 background-color: rgb(212, 228, 243);
-padding: 3rem
+padding: 3rem;
+
 
 }
 
@@ -92,7 +104,7 @@ padding: 3rem
     font-size: 1.5rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
+    text-align:start;
 
 }
 
@@ -119,6 +131,26 @@ padding: 3rem
       flex-shrink: 1;
       margin: 1%;
       }
+
+      .form input:focus {
+        border: 240% solid;
+        box-shadow: 1px 1px 5px rgba(4, 4, 29, 0.582);
+      }
+      .form input {
+          background-color: rgba(248, 248, 248, 0.918);
+        font-size: 16px;
+        border-radius: 5%;
+        border: 100% solid;
+        border-color:rgb(37, 37, 100);
+        padding: 1.5% 3%;
+      }
+      
+      .error {
+        border-color: red;
+        border: 300% solid;
+
+      }
+      
       
 
 .flex-item3{
@@ -127,4 +159,14 @@ padding: 3rem
     font-size: 1.1rem;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.form-prompt {
+font-size: 150%;
+padding-left: 1%;
+}
+
+.login-prompt {
+    padding-left: 1%;
+    font-size: 100%;
 }
