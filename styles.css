@@ -4,6 +4,30 @@ body {
     z-index: -2;
 }
 
+input {
+    background-color: rgba(248, 248, 248, 0.918);
+    font-size: 16px;
+    border-radius: 5%;
+    border: 100% solid;
+    border-color:rgb(37, 37, 100);
+    padding: 1.5% 3%;
+  }
+  
+
+input[type="submit"] {
+    background-color: rgba(241, 193, 103, 0.295);
+    font-size: 100%;
+    border-radius: 10%;
+    border-color: rgb(207, 207, 216);
+  }
+  
+  button{
+    background-color: rgba(247, 193, 103, 0.295);
+    font-size: 100%;
+    border-radius: 10%;
+    border-color: rgb(207, 207, 216);
+  }
+
 
 .flexbox-container{
 display: flex;
@@ -98,6 +122,8 @@ padding: 3rem
       
 
 .flex-item3{
+    display: flex;
+    flex-direction: column;
     font-size: 1.1rem;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
