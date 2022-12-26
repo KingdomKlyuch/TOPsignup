@@ -1,5 +1,6 @@
 body {
     background-image:url(./images/alexandr-podvalny-n_Jb_d8O43Q-unsplash.jpg);
+    background-size: 100% 100%;
     z-index: -2;
 }
   
@@ -7,40 +8,36 @@ body {
 .flexbox-container{
 display: flex;
 height: 1000px;
-width: 600px;
+width: 1320px;
 
 }
 
 .innerflexbox-left{
 display: flex;
-width: 300px;
+width: 500px;
+}
+
+.flex-itemleft{
+background-color: whitesmoke;
+width: 500px;
+height: 200px;
+margin-top: 240px;
 }
 
 .innerflexbox-right{
 display: flex;
-width: 300px;
+flex-direction: column;
+width: 820px;
 }
 
 
 .flexbox-item{
 
-width: 200px;
 
+margin: 0px;
+border: 3px solid black;
+flex-grow: 1;
+background-color: whitesmoke;
 
-
-}
-
-.flexbox-item1{
-min-height: 200px;
-
-}
-
-.flexbox-item2{
-min-height: 200px;
-
-}
-
-.flexbox-item3{
-min-height: 200px;
 
 }
