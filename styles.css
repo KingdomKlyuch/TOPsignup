@@ -8,19 +8,10 @@ div{
     font-family: Arial, Helvetica, sans-serif;
 }
   
-
-input[type="submit"] {
-    background-color: rgba(241, 193, 103, 0.295);
-    font-size: 100%;
-    border-radius: 10%;
-    border-color: rgb(207, 207, 216);
-  }
-  
   button{
-    background-color: rgba(247, 193, 103, 0.295);
+    background-color: rgb(248, 248, 248);
     font-size: 100%;
-    border-radius: 10%;
-    border-color: rgb(207, 207, 216);
+    border-color: rgb(37, 37, 100);
   }
 
 
@@ -53,7 +44,7 @@ margin-top: 175px;
     align-items: center;
     color: rgb(255, 255, 255);
     border-radius: 10px;
-    -webkit-transition: all 1.2s ease;
+    -webkit-transition: all 1.s ease;
     -moz-transition: all 1.2s ease;
     -o-transition: all 1.2s ease;
 }
