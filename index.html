@@ -23,17 +23,16 @@
     <div class="innerflexbox-right">
         <div class="flexbox-item flex-item1">
             
-                This is not a real online service! But if it was <br>
-                it would serve as your gateway to mystery, adventure <br>
-                and the untold thrills of the Ukrainian Carpathian mountains.
-                <br>
+                This is not a real online service! But if it was
+                it would serve as your gateway to mystery, adventure
+                and the untold thrills of the <br>Ukrainian Carpathian mountains.
                 Sign up now to get started.
                 <br><br>
                 You know you want to.
         </div>
         <div class="flexbox-item flex-item2">
-            Dare to dream?
-            <form class="form-box">
+            <div class="form-prompt">Dare to dream?</div>
+            <form class="form-box" onsubmit="validatePassword()">
                 <div class="form">
                   <label for="first-name">First Name:</label><br>
                   <input type="text" id="first-name" name="first-name">
@@ -52,26 +51,23 @@
                 </div>
                 <div class="form">
                   <label for="password">Password:</label><br>
-                  <input type="password" id="password" name="password">
+                  <input type="password" id="password" name="password" class="password-field">
                 </div>
                 <div class="form">
                   <label for="confirm-password">Confirm Password:</label><br>
-                  <input type="password" id="confirm-password" name="confirm-password">
+                  <input type="password" id="confirm-password" name="confirm-password" class="password-field">
                 </div>
               </form> 
               
         </div>
         <div class="flexbox-item flex-item3">
-            
             <form class="form-box">
-                <div class="form">
-                    <input type="submit" value="Sign Up">
-                  </div>
+              <div class="form">
+                <input type="submit" value="Sign Up">
+              </div>
             </form>
-            Already have an account? <button>Log in</button>
-        </div>
-    </div>
-</div>
+            <div class="login-prompt">Already have an account? <button>Log in</button></div>
+          </div>
 
     
 </body>
