@@ -7,39 +7,58 @@ body {
 
 .flexbox-container{
 display: flex;
-height: 100vh;
-width: 100vw;
+height: 98.4vh;
+width: 99vw;
 
 }
 
 .innerflexbox-left{
 display: flex;
-width: 40vw;
+justify-content: center;
+width: 41.5vw;
+font-size: 2em;
+
 }
 
 .flex-itemleft{
     display: flex;
+    flex-shrink: 2;
 background-color: rgba(17, 16, 16, 0.568);
-width: 40vw;
-height: 20vh;
-margin-top: 240px;
+width: auto;
+height: 20%;
+margin-top: 175px;
+    justify-content: center;
     align-items: center;
-    font-size: 3rem;
     color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
+    .logo{
+        flex-shrink: 1;
+        height: 70%;
+    }
+
+    .brand{
+        flex-shrink: 1;
+        flex-grow: 1;
+        font-size: 150%;
+    }
 
 
 .innerflexbox-right{
 display: flex;
 flex-direction: column;
-width: 60vw;
+width: 57vw;
 justify-content: space-between;
+height: 90vh;
+margin-top: 3rem;
+margin-right: 3rem;
 }
 
 
 .flexbox-item{
 flex: 1;
-background-color: rgb(212, 228, 243)
+background-color: rgb(212, 228, 243);
+padding: 3rem
 
 }
 
@@ -47,19 +66,39 @@ background-color: rgb(212, 228, 243)
     display: flex;
     align-items: flex-end;
     font-size: 1.5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 
 }
 
 .flex-item2{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    padding: 20px;
     z-index: 1;
     background-color: aliceblue;
         box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.342);
+      }
+
+      .form-box{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+      }
+
+      .form{
+      padding: 0px;
+      width: 40%;
+      flex-shrink: 1;
+      margin: 1%;
       }
       
 
 .flex-item3{
     font-size: 1.1rem;
-
-
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
