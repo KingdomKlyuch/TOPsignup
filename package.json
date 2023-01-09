@@ -1,0 +1,20 @@
+{
+  "name": "topsignup",
+  "version": "1.0.0",
+  "description": "Now that we're finally working on something directly relevant to our goals and that we're really interested in, we're gonna have a little fun and do something cool.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingdomKlyuch/TOPsignup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingdomKlyuch/TOPsignup/issues"
+  },
+  "homepage": "https://github.com/KingdomKlyuch/TOPsignup#readme"
+}
